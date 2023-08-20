@@ -17,8 +17,10 @@ const Interpolate = () => {
         width: 100,
         height: 100,
         backgroundColor: translation.interpolate({
-          inputRange: [0, 25, 50, 75, 100],
-          outputRange: ['blue', 'red', 'green', 'yellow', 'white'],
+          inputRange: [25, 50, 75, 100],
+          outputRange: ['red', 'green', 'yellow', 'white'],
+          extrapolateLeft: 'clamp',
+          extrapolateRight: 'clamp',
         }),
         /*  opacity: translation.interpolate({
           inputRange: [0, 50, 100],

@@ -4,6 +4,7 @@ import UberEats from './src/UberEats';
 import Translate from './src/Translate';
 import Staggering from './src/Staggering';
 import Interpolate from './src/Interpolate';
+import ScrollViewAnimation from './src/ScrollViewAnimation';
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
       {/* <UberEats /> */}
       {/* <Translate /> */}
       {/* <Staggering /> */}
-      <Interpolate />
+      {/* <Interpolate /> */}
+      <ScrollViewAnimation />
     </SafeAreaView>
   );
 };

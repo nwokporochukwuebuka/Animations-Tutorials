@@ -11,13 +11,13 @@ const App = () => {
     <SafeAreaView
       style={{
         flex: 1 /* justifyContent: 'center', alignItems: 'center' */,
-        backgroundColor: 'black',
+        backgroundColor: 'white',
       }}>
-      {/* <UberEats /> */}
+      <UberEats />
       {/* <Translate /> */}
       {/* <Staggering /> */}
       {/* <Interpolate /> */}
-      <ScrollViewAnimation />
+      {/* <ScrollViewAnimation /> */}
     </SafeAreaView>
   );
 };

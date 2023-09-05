@@ -11,6 +11,7 @@ const Interpolate = () => {
       useNativeDriver: false,
     }).start();
   }, []);
+
   return (
     <Animated.View
       style={{
